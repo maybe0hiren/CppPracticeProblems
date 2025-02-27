@@ -1,6 +1,6 @@
 #include <iostream>
 
-int result = 0;
+int result;
 int sum(int number){
     if (number == 0){
         return result;
