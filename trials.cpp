@@ -1,13 +1,13 @@
 #include <iostream>
 
-int function(int x, int y){
-    if (x==0){
-        return y;
-    }   
-    else{
-        return function(x-1, x+y);
-    }
-}
+// int function(int x, int y){
+//     if (x==0){
+//         return y;
+//     }   
+//     else{
+//         return function(x-1, x+y);
+//     }
+// }
 int main(){
 //     std::string word = "HIREN";
 
@@ -23,6 +23,6 @@ int main(){
     // for (int i=0; i<=8; i++){
     //     std::cout<< printArray(i);
     // }
-    std::cout<< function(5,10);
+    std::cout<< (int)'12';
     return 0;
 }
