@@ -8,6 +8,10 @@
 //         return function(x-1, x+y);
 //     }
 // }
+
+int abcd(int a, int b){
+    std::cout << a - 48 << " " << b-48;
+}
 int main(){
 //     std::string word = "HIREN";
 
@@ -23,6 +27,11 @@ int main(){
     // for (int i=0; i<=8; i++){
     //     std::cout<< printArray(i);
     // }
-    std::cout<< (int)'12';
+
+    // char a = '1';
+    // int a  = (int)a - 48;
+    // std::cout<< a;
+
+    abcd('1','0');
     return 0;
 }
