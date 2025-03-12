@@ -9,9 +9,9 @@
 //     }
 // }
 
-int abcd(int a, int b){
-    std::cout << a - 48 << " " << b-48;
-}
+// int abcd(int a, int b){
+//     std::cout << a - 48 << " " << b-48;
+// }
 int main(){
 //     std::string word = "HIREN";
 
@@ -32,6 +32,11 @@ int main(){
     // int a  = (int)a - 48;
     // std::cout<< a;
 
-    abcd('1','0');
+    // abcd('1','0');
+
+    std::string all = "asdfghjkl";
+    // all.erase(2);
+
+    // std::cout << all;
     return 0;
 }
