@@ -34,9 +34,10 @@ int main(){
 
     // abcd('1','0');
 
-    std::string all = "asdfghjkl";
+    // std::string all = "asdfghjkl";
     // all.erase(2);
 
     // std::cout << all;
+    
     return 0;
 }
