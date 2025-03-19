@@ -6,6 +6,6 @@ int main(){
     double c;
     char d;
 
-    std::cout << sizeof(a) << " " << sizeof(b) << " " << sizeof(c) << " " << sizeof(d);
+    std::cout << "The sizes are: " << sizeof(a) << " " << sizeof(b) << " " << sizeof(c) << " " << sizeof(d);
     return 0;
 }
