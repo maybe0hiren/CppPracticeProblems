@@ -12,6 +12,14 @@
 // int abcd(int a, int b){
 //     std::cout << a - 48 << " " << b-48;
 // }
+
+void reverseString(std::string &stringInput){
+    for(int i = 0; i<=stringInput.length()/2; i++){
+        std::swap(stringInput[i], stringInput[stringInput.length()-i-1]);
+    }
+    std::cout << stringInput;
+}
+
 int main(){
 //     std::string word = "HIREN";
 
@@ -37,7 +45,15 @@ int main(){
     // std::string all = "asdfghjkl";
     // all.erase(2);
 
-    // std::cout << all;
+    // // std::cout << all;
+    // std::string name = "Hiren";
+    // reverseString(name);
+    // std::cout << name;
+    double number1 = 1231.3123123;
+    for (int i = 0; i<10; i++){
+        std::cout << number1 << "\n";
+        number1 *= 10;
+    }
     
     return 0;
 }
